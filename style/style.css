@@ -1,0 +1,604 @@
+/* 
+body{
+  text-align: center;
+  font-family: Arial, sans-serif;
+
+}
+/* Reset عام */
+
+/* 
+.testimonial-section {
+  padding: 40px 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #6a5acd;
+  right: 50px;
+  position: relative;
+}
+
+
+.user-details {
+  text-align: left;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-job {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  font-style: italic;
+  color: #555;
+  margin: 20px 0 0;
+  text-align: right;
+  position: relative;
+}
+
+.testimonial-text::before,
+.testimonial-text::after {
+  content: '"';
+  font-size: 24px;
+  color: #6a5acd;
+}
+
+.testimonial-text::before {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.testimonial-text::after {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+} */
+
+/* Reset عام */
+body {
+
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.testimonial-section {
+  padding: 40px 20px;
+}
+
+a {
+  color: #5e7ca9;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  width: 1024px;
+  height: 240px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  /* لتوزيع العناصر بشكل أفقي */
+  align-items: center;
+  /* محاذاة العناصر عموديًا */
+  justify-content: space-between;
+  /* توزيع العناصر بالتساوي */
+  gap: 20px;
+  /* مسافة بين الصورة والنص */
+}
+
+
+/* .testimonial-content{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+} */
+.user-info {
+  display: flex;
+  align-items: center;
+  /* gap: 20px; */
+  /* flex: 0 0 auto; تثبيت حجم الصورة والمعلومات */
+
+}
+
+.user-image {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 2px solid #6a5acd;
+  right: 36px;
+  top: 42px;
+  position: relative;
+}
+
+.user-details {
+  position: relative;
+  right: 69px;
+  bottom: 27px;
+
+}
+
+.user-name {
+  color: #6a5acd;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-job {
+  font-size: 18px;
+  color: #13d77c;
+  margin: 0;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  /* زيادة حجم النص */
+  font-style: italic;
+  color: #555;
+  margin: 0;
+  text-align: right;
+  max-width: 800px;
+  /* تحديد عرض للنص */
+  line-height: 1.6;
+  /* تحسين التباعد بين الأسطر */
+  position: relative;
+
+}
+
+.testimonial-text::before,
+.testimonial-text::after {
+  content: '"';
+  font-size: 30px;
+  color: #6a5acd;
+}
+
+.testimonial-text::before {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.testimonial-text::after {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+}
+
+
+.testimonial-text {
+  position: relative;
+  right: 183px;
+  top: -44px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset */
+body,
+h1,
+h2,
+p,
+a,
+form {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.footer-line {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-column p,
+.footer-column a {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.newsletter-input {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.subscribe-button {
+  background-color: #6a5acd;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: #5a4cb0;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999;
+}
+
+.footer-bottom a {
+  color: #555;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start nav */
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+  transition: top 0.3s;
+  position: fixed;
+  width: 100%;
+  top: -60px;
+  z-index: 3;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* تصميم الناف بار عند الظهور */
+.navbar.navbar-show {
+  top: 0;
+
+}
+
+/* end nav */
+
+
+
+
+
+
+/* start department */
+
+.dept {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dept a {
+  color: black;
+  text-decoration: none;
+}
+
+.dept .ml {
+  padding-left: 19px;
+}
+
+.img_radius {
+  border-radius: 50%;
+  height: 100%;
+}
+
+.image-container-dept {
+  height: 170px;
+  width: 170px !important;
+}
+
+.title_dept {
+  text-align: center;
+}
+
+/* end department */
+
+
+
+
+
+
+
+.image-container {
+  height: 277.328px;
+  width: 416px !important;
+}
+
+
+
+.carousel-btn {
+  color: black;
+}
+
+
+
+
+.position-relative {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 1s;
+  /* background-image: linear-gradient(to top, #3f3f3f, #00000000); */
+  background: linear-gradient(200deg, rgb(101 101 101/0%) 0%, rgba(23, 26, 35, 0.85) 150%);
+
+}
+
+.overlay a {
+  color: #fff;
+  transition: 0.35s;
+
+}
+
+.overlay a:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.507);
+}
+
+.position-relative:hover .overlay {
+  opacity: 1;
+}
+
+.position-relative:hover img {
+  opacity: 0.7;
+}
+
+.image-container {
+  width: 100%;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s ease;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.position-relative:hover img {
+  transform: scale(1.1);
+}
+
+
+
+.carousel_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_ {
+  background-color: #eee;
+}
+
+.textt {
+  display: inline;
+  position: relative;
+  background-color: #4ed34e;
+  padding: 3px 10px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  font-weight: bold;
+}
+
+
+
+
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #434343;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+/* تحسين التجاوب لصور الأقسام */
+.image-container-dept {
+  height: 150px;
+  width: 100%;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+.img_radius {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.img_radius:hover {
+  transform: scale(1.05);
+}
+
+/* العناوين */
+h5.card-title {
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+}
+
+/* تحسين استجابة الكروسل */
+@media (max-width: 768px) {
+  .carousel_flex {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* تحسين الفوتر للشاشات الصغيرة */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
